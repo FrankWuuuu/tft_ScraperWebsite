@@ -42,7 +42,7 @@ class Compsofcarry
 
 
 
-          <div class = "col " style = {this.style69}>
+          <div class = "col" style = {this.style69}>
             {this.state.teamcomps.map((teamComp) => (<Teamcomp key={teamComp.id} value2 = {teamComp.teamCompName} />))}
 
             
