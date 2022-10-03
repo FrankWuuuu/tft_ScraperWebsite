@@ -1,0 +1,739 @@
+[
+    [
+        {
+            "carry": [
+                "Zippy",
+                "Daeja"
+            ],
+            "units": [
+                "Sejuani",
+                "Twitch",
+                "Nunu",
+                "Zippy",
+                "Jayce",
+                "Daeja"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Zippy": [
+                        "Bloodthirster",
+                        "Infinity Edge",
+                        "Titan's Resolve"
+                    ]
+                },
+                {
+                    "Daeja": [
+                        "Giant Slayer",
+                        "Guild Emblem",
+                        "Guinsoo's Rageblade"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Nomsy"
+            ],
+            "units": [
+                "Heimerdinger",
+                "Skarner",
+                "Vladimir",
+                "Lillia",
+                "Lux",
+                "Sylas",
+                "Nomsy",
+                "Zoe"
+            ],
+            "threeStars": [
+                "Heimerdinger",
+                "Skarner",
+                "Vladimir",
+                "Lux",
+                "Sylas",
+                "Nomsy"
+            ],
+            "items": [
+                {
+                    "Sylas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                },
+                {
+                    "Nomsy": [
+                        "Archangel's Staff",
+                        "Hextech Gunblade",
+                        "Spear of Shojin"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Sohm"
+            ],
+            "units": [
+                "Malphite",
+                "Seraphine",
+                "Sylas",
+                "Nilah",
+                "Sohm",
+                "Bard",
+                "Zoe"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Sylas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                },
+                {
+                    "Sohm": [
+                        "Blue Buff",
+                        "Infinity Edge",
+                        "Jeweled Gauntlet"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Ao Shin",
+                "Shyvana"
+            ],
+            "units": [
+                "Rakan",
+                "Idas",
+                "Ao Shin",
+                "Shyvana",
+                "Terra"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Ao Shin": [
+                        "Hextech Gunblade",
+                        "Spear of Shojin"
+                    ]
+                },
+                {
+                    "Shyvana": [
+                        "Ionic Spark",
+                        "Morellonomicon"
+                    ]
+                },
+                {
+                    "Terra": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Xayah",
+                "Shyvana"
+            ],
+            "units": [
+                "Sejuani",
+                "Twitch",
+                "Rakan",
+                "Jayce",
+                "Xayah",
+                "Hecarim",
+                "Shyvana"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Xayah": [
+                        "Giant Slayer",
+                        "Guinsoo's Rageblade",
+                        "Infinity Edge"
+                    ]
+                },
+                {
+                    "Shyvana": [
+                        "Archangel's Staff",
+                        "Ionic Spark",
+                        "Morellonomicon"
+                    ]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "carry": [
+                "Daeja"
+            ],
+            "units": [
+                "Sejuani",
+                "Rell",
+                "Yone",
+                "Nunu",
+                "Hecarim",
+                "Daeja",
+                "Yasuo"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Nunu": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                },
+                {
+                    "Daeja": [
+                        "Giant Slayer",
+                        "Guinsoo's Rageblade",
+                        "Hextech Gunblade"
+                    ]
+                },
+                {
+                    "Yasuo": [
+                        "Cavalier Emblem"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Graves"
+            ],
+            "units": [
+                "Senna",
+                "Aphelios",
+                "Rell",
+                "Tristana",
+                "Zeri",
+                "Nomsy",
+                "Graves",
+                "Hecarim"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Senna": [
+                        "Zeke's Herald"
+                    ]
+                },
+                {
+                    "Aphelios": [
+                        "Last Whisper"
+                    ]
+                },
+                {
+                    "Rell": [
+                        "Sunfire Cape"
+                    ]
+                },
+                {
+                    "Graves": [
+                        "Bloodthirster",
+                        "Guinsoo's Rageblade",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Rengar",
+                "Swain"
+            ],
+            "units": [
+                "Sejuani",
+                "Aphelios",
+                "Qiyana",
+                "Rell",
+                "Rengar",
+                "Graves",
+                "Swain"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Sejuani": [
+                        "Protector's Vow"
+                    ]
+                },
+                {
+                    "Rengar": [
+                        "Bloodthirster",
+                        "Infinity Edge"
+                    ]
+                },
+                {
+                    "Swain": [
+                        "Archangel's Staff",
+                        "Morellonomicon",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Lee Sin",
+                "Nunu"
+            ],
+            "units": [
+                "Karma",
+                "Sett",
+                "Kaisa",
+                "Lee Sin",
+                "Nunu",
+                "Volibear",
+                "Hecarim",
+                "Yasuo"
+            ],
+            "threeStars": [
+                "Lee Sin",
+                "Nunu"
+            ],
+            "items": [
+                {
+                    "Lee Sin": [
+                        "Hand of Justice",
+                        "Infinity Edge",
+                        "Jeweled Gauntlet"
+                    ]
+                },
+                {
+                    "Nunu": [
+                        "Bloodthirster",
+                        "Dragonmancer Emblem",
+                        "Hand of Justice"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Pantheon",
+                "Shi Oh Yu"
+            ],
+            "units": [
+                "Karma",
+                "Zyra",
+                "Seraphine",
+                "Pantheon",
+                "Shi Oh Yu",
+                "Yasuo",
+                "Soraka"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Pantheon": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Titan's Resolve"
+                    ]
+                },
+                {
+                    "Shi Oh Yu": [
+                        "Bloodthirster",
+                        "Edge of Night",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Seraphine"
+            ],
+            "units": [
+                "Zac",
+                "Zyra",
+                "Rakan",
+                "Seraphine",
+                "Zeri",
+                "Graves",
+                "Pantheon",
+                "Yasuo"
+            ],
+            "threeStars": [
+                "Seraphine"
+            ],
+            "items": [
+                {
+                    "Zac": [
+                        "Protector's Vow"
+                    ]
+                },
+                {
+                    "Seraphine": [
+                        "Morellonomicon",
+                        "Rabadon's Deathcap",
+                        "Spear of Shojin"
+                    ]
+                },
+                {
+                    "Zeri": [
+                        "Zeke's Herald"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Diana",
+                "Olaf"
+            ],
+            "units": [
+                "Braum",
+                "Lillia",
+                "Diana",
+                "Olaf",
+                "Sylas",
+                "Hecarim",
+                "Nilah",
+                "Pantheon"
+            ],
+            "threeStars": [
+                "Diana",
+                "Olaf"
+            ],
+            "items": [
+                {
+                    "Diana": [
+                        "Hand of Justice",
+                        "Ionic Spark",
+                        "Sunfire Cape"
+                    ]
+                },
+                {
+                    "Olaf": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Runaan's Hurricane"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Olaf",
+                "Pantheon"
+            ],
+            "units": [
+                "Lillia",
+                "Yone",
+                "Olaf",
+                "Sylas",
+                "Hecarim",
+                "Pantheon",
+                "Yasuo",
+                "Zoe"
+            ],
+            "threeStars": [
+                "Olaf"
+            ],
+            "items": [
+                {
+                    "Olaf": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Runaan's Hurricane"
+                    ]
+                },
+                {
+                    "Pantheon": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Graves",
+                "Nilah"
+            ],
+            "units": [
+                "Qiyana",
+                "Rakan",
+                "Seraphine",
+                "Zeri",
+                "Graves",
+                "Nilah",
+                "Idas"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Graves": [
+                        "Bloodthirster",
+                        "Titan's Resolve"
+                    ]
+                },
+                {
+                    "Nilah": [
+                        "Hand of Justice",
+                        "Infinity Edge"
+                    ]
+                },
+                {
+                    "Idas": [
+                        "Gargoyle Stoneplate",
+                        "Warmog's Armor"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Lee Sin",
+                "Ao Shin"
+            ],
+            "units": [
+                "Sett",
+                "Qiyana",
+                "Lee Sin",
+                "Volibear",
+                "Graves",
+                "Yasuo",
+                "Ao Shin"
+            ],
+            "threeStars": [
+                "Lee Sin"
+            ],
+            "items": [
+                {
+                    "Lee Sin": [
+                        "Hand of Justice",
+                        "Infinity Edge",
+                        "Jeweled Gauntlet"
+                    ]
+                },
+                {
+                    "Ao Shin": [
+                        "Archangel's Staff",
+                        "Hextech Gunblade",
+                        "Spear of Shojin"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Pantheon",
+                "Syfen"
+            ],
+            "units": [
+                "Zyra",
+                "Seraphine",
+                "Sylas",
+                "Pantheon",
+                "Syfen",
+                "Bard",
+                "Yasuo"
+            ],
+            "threeStars": [],
+            "items": [
+                {
+                    "Pantheon": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Titan's Resolve"
+                    ]
+                },
+                {
+                    "Syfen": [
+                        "Bloodthirster",
+                        "Quicksilver",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "carry": [
+                "Varus"
+            ],
+            "units": [
+                "Nidalee",
+                "Skarner",
+                "Vladimir",
+                "Lux",
+                "Twitch",
+                "Sylas",
+                "Varus",
+                "Xayah"
+            ],
+            "threeStars": [
+                "Sylas",
+                "Varus"
+            ],
+            "items": [
+                {
+                    "Sylas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                },
+                {
+                    "Varus": [
+                        "Deathblade",
+                        "Guinsoo's Rageblade",
+                        "Runaan's Hurricane"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Wukong",
+                "Pantheon"
+            ],
+            "units": [
+                "Wukong",
+                "Olaf",
+                "Sylas",
+                "Pantheon",
+                "Shi Oh Yu",
+                "Yasuo",
+                "Soraka"
+            ],
+            "threeStars": [
+                "Wukong"
+            ],
+            "items": [
+                {
+                    "Wukong": [
+                        "Infinity Edge",
+                        "Rapid Firecannon",
+                        "Runaan's Hurricane"
+                    ]
+                },
+                {
+                    "Pantheon": [
+                        "Bloodthirster",
+                        "Giant Slayer",
+                        "Titan's Resolve"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Zeri"
+            ],
+            "units": [
+                "Aphelios",
+                "Tristana",
+                "Rakan",
+                "Seraphine",
+                "Zeri",
+                "Nomsy",
+                "Idas"
+            ],
+            "threeStars": [
+                "Rakan",
+                "Zeri",
+                "Nomsy"
+            ],
+            "items": [
+                {
+                    "Zeri": [
+                        "Guinsoo's Rageblade",
+                        "Hand of Justice",
+                        "Infinity Edge"
+                    ]
+                },
+                {
+                    "Idas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Nomsy"
+            ],
+            "units": [
+                "Zyra",
+                "Lulu",
+                "Rakan",
+                "Seraphine",
+                "Nomsy",
+                "Idas",
+                "Bard"
+            ],
+            "threeStars": [
+                "Rakan",
+                "Nomsy"
+            ],
+            "items": [
+                {
+                    "Nomsy": [
+                        "Archangel's Staff",
+                        "Hextech Gunblade",
+                        "Spear of Shojin"
+                    ]
+                },
+                {
+                    "Idas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                }
+            ]
+        },
+        {
+            "carry": [
+                "Nomsy"
+            ],
+            "units": [
+                "Heimerdinger",
+                "Lux",
+                "Sylas",
+                "Nomsy",
+                "Syfen",
+                "Bard",
+                "Zoe"
+            ],
+            "threeStars": [
+                "Sylas",
+                "Nomsy"
+            ],
+            "items": [
+                {
+                    "Sylas": [
+                        "Gargoyle Stoneplate",
+                        "Sunfire Cape",
+                        "Warmog's Armor"
+                    ]
+                },
+                {
+                    "Nomsy": [
+                        "Archangel's Staff",
+                        "Hextech Gunblade",
+                        "Spear of Shojin"
+                    ]
+                }
+            ]
+        }
+    ],
+    [],
+    []
+]
