@@ -8,4 +8,6 @@ import Compsofcarry from './components/compsOfCarry';
 
 const element = <h1>cum</h1>;
 ReactDOM.render(<Tierlist />, document.getElementById('root'))
+
+
 // ReactDOM.render(<Teamcomp />, document.getElementById('root'))
