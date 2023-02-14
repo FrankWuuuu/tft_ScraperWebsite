@@ -1,7 +1,27 @@
 from django.shortcuts import render
+from rest_framework.views import APIView
+from . models import *
 from rest_framework.response import Response
+from . serializer import *
 from rest_framework.decorators import api_view
 
+from rest_framework import viewsets
+
+# class ReactView(APIView):
+    
+#     serializer_class = CarryAndCompsSerializer
+  
+#     def get(self, request):
+#         detail = [ {"body": detail.body} 
+#         for detail in CarryAndComps.objects.all()]
+#         return Response(detail)
+  
+
+class CarryAndCompsViewSet(viewsets.ModelViewSet):
+    queryset = CarryAndComps.objects.all()
+    serializer_class = CarryAndCompsSerializer
+
+    
 
 @api_view(['GET'])
 def getData(request):

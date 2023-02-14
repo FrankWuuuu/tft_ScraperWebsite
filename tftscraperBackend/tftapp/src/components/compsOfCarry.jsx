@@ -3,8 +3,7 @@ import Carry from './carry';
 import Teamcomp from './teamcomp';
 import Unit from './unit';
 
-class Compsofcarry
- extends Component {
+class Compsofcarry extends Component {
   state = {  
     carry: this.props.carry,
     teamcomps: this.props.teamcomps2 
@@ -17,7 +16,13 @@ class Compsofcarry
     backgroundColor : "#31313c",
     margin : 0,
     padding: 30,
-    
+    borderRadius: "4px 0px 0px 4px",
+  }
+  style692 = {
+    backgroundColor : "#31313c",
+    margin : 0,
+    padding: 30,
+    borderRadius: "0px 4px 4px 0px",
   }
 
   styleMain = {
@@ -42,7 +47,7 @@ class Compsofcarry
 
 
 
-          <div class = "col" style = {this.style69}>
+          <div class = "col" style = {this.style692}>
             {this.state.teamcomps.map((teamComp) => (<Teamcomp key={teamComp.id} value2 = {teamComp.teamCompName} />))}
 
             

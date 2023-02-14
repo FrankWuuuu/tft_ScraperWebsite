@@ -5,16 +5,24 @@ class Unit extends Component {
 
   state = {
     unitName: this.props.value,
-    url: 'https://rerollcdn.com/characters/Skin/7.5/Idas.png'
+    url: 'https://rerollcdn.com/characters/Skin/8.0/Idas.png'
   };
 
   urlCreator(){
     let unitname = this.state.unitName.replaceAll(" ","");
     unitname = unitname.replaceAll("'","");
-    if(unitname.includes('Nomsy'))unitname = 'Nomsy';
-    if(unitname.includes('Swain'))unitname = 'Swain';
 
-    this.state.url=  'https://rerollcdn.com/characters/Skin/7.5/'+ unitname + '.png';
+    unitname = unitname.charAt(0) + unitname.substring(1).toLowerCase();
+    if(unitname.includes('Aurelion'))unitname = 'AurelionSol';
+    if(unitname.includes('fortune'))unitname = 'MissFortune';
+    if(unitname.includes('Leesin'))unitname = 'LeeSin';
+
+
+
+    // if(unitname.includes('Nomsy'))unitname = 'Nomsy';
+    // if(unitname.includes('Swain'))unitname = 'Swain';
+
+    this.state.url=  'https://rerollcdn.com/characters/Skin/8/'+ unitname + '.png';
     // this.state.url=  'https://cdn.lolchess.gg/upload/images/champions/MissFortune_1657240754.png';
     
   }

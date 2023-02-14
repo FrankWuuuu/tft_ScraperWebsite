@@ -10,6 +10,7 @@ print()
 print()
 print()
 
+# opening data
 tftacticsDatabase = [
     [
         {
@@ -996,7 +997,7 @@ for i in range (len(bunnymuffinsdatabase)-1, -1, -1):
 
 
 
-
+# converting tiers
 def lolchessToBunnymuffins(n):
     n = n * bunnymuffinsLength / lolchessLength
     currentTier = 0
@@ -1028,7 +1029,7 @@ print()
 print()
 print()
 
-
+# finding average of tiers for each carry
 arrCombinedTierOfEachCarry = {}
 for carry in bunnymuffinsTierOfEachCarry:
     carryIsInDatabase  = 3
@@ -1144,7 +1145,7 @@ print(sorted_dict)
 def fixnames (unitName):
     unitName =unitName.replace(" ", "")
     unitName = unitName.replace("'", "")
-    unitName = unitName.replace("TyrantSwain", "Swain")
+    # unitName = unitName.replace("TyrantSwain", "Swain") //set 7.5
     return unitName
 
 
