@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios'
 import Compsofcarry from './compsOfCarry';
+import Unit from './unit.jsx';
 
 const api = axios.create({
     baseURL: 'http://localhost:8000/'
@@ -11,9 +12,8 @@ class Tierlist extends Component {
 
     state = {  
         carryComps: [],
-        hi : "eragf"
+        hi : { 'a': 1, 'b': 2, 'c': 3 }
     } 
-
 
 
     componentDidMount() {
@@ -46,39 +46,9 @@ class Tierlist extends Component {
   }
  
 
-  start(){
-    // for (let i = 0; i < this.lolchess.length; i++) {
-    //   this.lolchess[i].carry
-    // }
-    // this.state.carryComps = this.lolchess;
-    // console.log (this.state.carryComps);
-    
-    let i = 0;
-    for (const [key, value] of Object.entries(this.lolchess)) {
-      // console.log(key, value);
-      let carryDict = {};
-      carryDict['carry'] = key;
-      carryDict['id'] = i;
-      i++;
-      let unitArrArr = [];
-      let j = 0;
-      for (const unitArr of value){
-        let compDict = {};
-        compDict["teamCompName"] = unitArr['units'];
-        compDict["id"] = j;
-        j++;
-        unitArrArr.push(compDict);
-      }
-      carryDict['teamcomps']= unitArrArr;
-      this.state.carryComps.push(carryDict);
-      
-
-    }
-  }
 
 
   render() { 
-    // this.start ()
     console.log()
     return (
       
@@ -94,14 +64,29 @@ class Tierlist extends Component {
             <div key={id}>
             <div >
                   <div >
-                        {this.state.carryComp["body"].map((carryComps2) => (<Compsofcarry key={"header"+ carryComps2.carry} carry = {carryComps2.carry} teamcomps2 = {carryComps2.teamcomps} />))}
-{/*                         
-                        <h1>{carryComp["body"]["Fiddlesticks"][0]["carry"][1]} </h1>
-                        <h1>{carryComp["name"]} </h1>
+                        {/* {this.state.carryComp["body"].map((carryComps2) => (<Compsofcarry key={"header"+ carryComps2.carry} carry = {carryComps2.carry} teamcomps2 = {carryComps2.teamcomps} />))} */}
+                        
+                        {Object.entries(carryComp["body"]).map(([carryName,theTeamcomps]) => (
+                          <div>
+                            {/* <Unit key = {"h"+ carryName} value = {carryName} class=  " position-absolute top-50 start-50"/> */}
+                            <Compsofcarry key = {"h "+ carryName} carry = {carryName} teamcomps = {theTeamcomps}/>
+                          </div>
+                        ))}
+                        
+
+
+                        <Unit unitName = {Object.keys( carryComp["body"]["Vayne"][0]["units"])[0]}
+                         items= {carryComp["body"]["Vayne"][0]["units"]["Kai'Sa"]}/>
+                        
+                        {/* <h1>{carryComp["body"]["Vayne"][0]["units"]["Kai'Sa"][0]} </h1> */}
+                        
+                        {/* <h1>{carryComp["name"]} </h1>
                         <footer >--- by
                         <cite title="Source Title">
                         {carryComp.name}</cite>
                         </footer> */}
+
+
                   </div>
             </div>
             </div>

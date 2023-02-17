@@ -1,784 +1,608 @@
 [
     {
         "carry": [
-            "Zed",
-            "Mordekaiser"
+            "Samira",
+            "Aphelios",
+            "Fiddlesticks"
         ],
-        "units": [
-            "Renekton",
-            "Yasuo",
-            "Senna",
-            "Zoe",
-            "Sejuani",
-            "Zed",
-            "Fiddlesticks",
-            "Mordekaiser"
+        "units": {
+            "Wukong": [],
+            "Alistar": [],
+            "Samira": [
+                "Last Whisper",
+                "Runaan's Hurricane",
+                "Hextech Gunblade"
+            ],
+            "Sett": [
+                "Gargoyle Stoneplate",
+                "Redemption",
+                "Bramble Vest"
+            ],
+            "Zac": [],
+            "Aphelios": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Hand of Justice"
+            ],
+            "Fiddlesticks": [
+                "Archangel's Staff",
+                "Morellonomicon"
+            ],
+            "Leona": []
+        }
+    },
+    {
+        "carry": [
+            "BelVeth",
+            "Fiddlesticks"
         ],
-        "items": [
-            {
-                "Yasuo": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Sejuani": [
-                    "Redemption",
-                    "Sunfire Cape",
-                    "Gargoyle Stoneplate"
-                ]
-            },
-            {
-                "Zed": [
-                    "Edge of Night",
-                    "Bloodthirster",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Mordekaiser": [
-                    "Jeweled Gauntlet",
-                    "Hand of Justice",
-                    "Titan\u2019s Resolve"
-                ]
-            }
-        ]
+        "units": {
+            "Wukong": [],
+            "Alistar": [],
+            "BelVeth": [
+                "Hextech Gunblade",
+                "Last Whisper",
+                "Giant Slayer"
+            ],
+            "Ekko": [],
+            "Sett": [
+                "Gargoyle Stoneplate",
+                "Redemption",
+                "Bramble Vest"
+            ],
+            "Zac": [],
+            "Fiddlesticks": [
+                "Ionic Spark",
+                "Jeweled Gauntlet",
+                "Morellonomicon"
+            ],
+            "Leona": []
+        }
+    },
+    {
+        "carry": [
+            "Samira",
+            "Aphelios",
+            "Fiddlesticks"
+        ],
+        "units": {
+            "Vi": [],
+            "Alistar": [],
+            "Ekko": [],
+            "Samira": [
+                "Last Whisper",
+                "Giant Slayer",
+                "Runaan's Hurricane"
+            ],
+            "Sejuani": [
+                "Redemption",
+                "Bramble Vest",
+                "Dragon's Claw"
+            ],
+            "Aphelios": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Hand of Justice"
+            ],
+            "Fiddlesticks": [
+                "Morellonomicon",
+                "Ionic Spark"
+            ],
+            "Leona": [],
+            "Urgot": []
+        }
+    },
+    {
+        "carry": [
+            "Aphelios",
+            "Fiddlesticks"
+        ],
+        "units": {
+            "Galio": [],
+            "Sivir": [],
+            "Alistar": [],
+            "Ekko": [
+                "Redemption",
+                "Bramble Vest",
+                "Warmog's Armor"
+            ],
+            "Aphelios": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Hand of Justice"
+            ],
+            "Fiddlesticks": [
+                "Ionic Spark",
+                "Archangel's Staff",
+                "Morellonomicon"
+            ],
+            "Janna": [],
+            "Leona": [],
+            "Urgot": []
+        }
+    },
+    {
+        "carry": [
+            "Kai'Sa",
+            "Vayne",
+            "BelVeth"
+        ],
+        "units": {
+            "Ezreal": [],
+            "Cho'Gath": [
+                "Thief's Gloves"
+            ],
+            "Kai'Sa": [
+                "Guinsoo's Rageblade",
+                "Statikk Shiv",
+                "Hextech Gunblade"
+            ],
+            "Nilah": [
+                "Redemption",
+                "Warmog's Armor",
+                "Ionic Spark"
+            ],
+            "Rammus": [
+                "Bramble Vest",
+                "Sunfire Cape",
+                "Gargoyle Stoneplate"
+            ],
+            "Vayne": [
+                "Giant Slayer",
+                "Infinity Edge",
+                "Last Whisper"
+            ],
+            "BelVeth": [
+                "Recon Emblem",
+                "Giant Slayer",
+                "Hand of Justice"
+            ],
+            "Ekko": []
+        }
+    },
+    {
+        "carry": [
+            "Aurelion Sol",
+            "BelVeth",
+            "Fiddlesticks"
+        ],
+        "units": {
+            "Cho'Gath": [
+                "Thief's Gloves"
+            ],
+            "Rammus": [],
+            "Velkoz": [],
+            "Aurelion Sol": [
+                "Spear of Shojin",
+                "Rabadon's Deathcap",
+                "Jeweled Gauntlet"
+            ],
+            "BelVeth": [
+                "Hextech Gunblade",
+                "Last Whisper",
+                "Giant Slayer"
+            ],
+            "Zac": [
+                "Bramble Vest",
+                "Warmog's Armor",
+                "Dragon's Claw"
+            ],
+            "Fiddlesticks": [
+                "Morellonomicon",
+                "Ionic Spark"
+            ],
+            "Urgot": []
+        }
     },
     {
         "carry": [
             "Zoe",
             "Soraka"
         ],
-        "units": [
-            "Annie",
-            "Alistar",
-            "Sona",
-            "Zoe",
-            "Ekko",
-            "Soraka",
-            "Nunu",
-            "Syndra"
-        ],
-        "items": [
-            {
-                "Annie": [
-                    "Gargoyle Stoneplate",
-                    "Warmog's Armor",
-                    "Sunfire Cape"
-                ]
-            },
-            {
-                "Zoe": [
-                    "Blue Buff",
-                    "Giant Slayer",
-                    "Heart Emblem"
-                ]
-            },
-            {
-                "Soraka": [
-                    "Giant Slayer",
-                    "Jeweled Gauntlet",
-                    "Blue Buff"
-                ]
-            },
-            {
-                "Nunu": [
-                    "Ionic Spark"
-                ]
-            }
-        ]
+        "units": {
+            "Annie": [],
+            "Alistar": [],
+            "Sona": [],
+            "Zoe": [
+                "Blue Buff",
+                "Giant Slayer",
+                "Heart Emblem"
+            ],
+            "Ekko": [
+                "Gargoyle Stoneplate",
+                "Warmog's Armor",
+                "Sunfire Cape"
+            ],
+            "Soraka": [
+                "Giant Slayer",
+                "Jeweled Gauntlet",
+                "Blue Buff"
+            ],
+            "Nunu": [
+                "Ionic Spark"
+            ],
+            "Syndra": []
+        }
     },
     {
         "carry": [
-            "Aurelion Sol",
-            "BelVeth",
-            "Fiddlesticks"
+            "Talon",
+            "Viego"
         ],
-        "units": [
-            "Cho'Gath",
-            "Rammus",
-            "Velkoz",
-            "Aurelion Sol",
-            "BelVeth",
-            "Zac",
-            "Fiddlesticks",
-            "Urgot"
-        ],
-        "items": [
-            {
-                "Cho'Gath": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Aurelion Sol": [
-                    "Spear of Shojin",
-                    "Rabadon's Deathcap",
-                    "Jeweled Gauntlet"
-                ]
-            },
-            {
-                "BelVeth": [
-                    "Bloodthirster",
-                    "Titan\u2019s Resolve",
-                    "Last Whisper"
-                ]
-            },
-            {
-                "Zac": [
-                    "Bramble Vest",
-                    "Warmog's Armor",
-                    "Dragon's Claw"
-                ]
-            },
-            {
-                "Fiddlesticks": [
-                    "Morellonomicon",
-                    "Ionic Spark"
-                ]
-            }
-        ]
+        "units": {
+            "Sylas": [],
+            "Talon": [
+                "Bloodthirster",
+                "Jeweled Gauntlet",
+                "Guardbreaker"
+            ],
+            "Camille": [],
+            "Alistar": [],
+            "Viego": [
+                "Bloodthirster",
+                "Jeweled Gauntlet",
+                "Guardbreaker"
+            ],
+            "Aphelios": [],
+            "Fiddlesticks": [
+                "Renegade Emblem"
+            ],
+            "Leona": [
+                "Sunfire Cape",
+                "Redemption",
+                "Ionic Spark"
+            ]
+        }
     },
     {
         "carry": [
-            "Draven"
+            "Camille",
+            "Viego"
         ],
-        "units": [
-            "Gangplank",
-            "Wukong",
-            "Draven",
-            "Lee Sin",
-            "Malphite",
-            "Yuumi",
-            "Jax"
+        "units": {
+            "Blitzcrank": [],
+            "Talon": [
+                "A.D.M.I.N. Crest"
+            ],
+            "Camille": [
+                "Bloodthirster",
+                "Titan\u2019s Resolve",
+                "Infinity Edge"
+            ],
+            "Vi": [
+                "Sunfire Cape",
+                "Redemption",
+                "Warmog's Armor"
+            ],
+            "Alistar": [],
+            "LeBlanc": [],
+            "Zoe": [],
+            "Ekko": [],
+            "Viego": [
+                "Bloodthirster",
+                "Titan\u2019s Resolve",
+                "Jeweled Gauntlet"
+            ]
+        }
+    },
+    {
+        "carry": [
+            "Kai'Sa",
+            "Vayne"
         ],
-        "items": [
-            {
-                "Draven": [
-                    "Infinity Edge",
-                    "Bloodthirster",
-                    "Titan\u2019s Resolve"
-                ]
-            },
-            {
-                "Lee Sin": [
-                    "Sunfire Cape",
-                    "Redemption",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Malphite": [
-                    "Gargoyle Stoneplate",
-                    "Warmog's Armor",
-                    "Bramble Vest"
-                ]
-            }
-        ]
+        "units": {
+            "Jinx": [],
+            "Vi": [],
+            "Alistar": [],
+            "Kai'Sa": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Jeweled Gauntlet"
+            ],
+            "Nilah": [
+                "Sunfire Cape",
+                "Warmog's Armor",
+                "Bramble Vest"
+            ],
+            "Riven": [],
+            "Vayne": [
+                "Giant Slayer",
+                "Guinsoo's Rageblade",
+                "Infinity Edge"
+            ],
+            "Ekko": [
+                "Thief's Gloves"
+            ]
+        }
     },
     {
         "carry": [
             "Samira",
-            "Aphelios",
-            "Fiddlesticks"
+            "Viego",
+            "Aphelios"
         ],
-        "units": [
-            "Wukong",
-            "Alistar",
-            "Samira",
-            "Sett",
-            "Zac",
-            "Aphelios",
-            "Fiddlesticks",
-            "Leona"
+        "units": {
+            "Talon": [],
+            "Annie": [
+                "Sunfire Cape",
+                "Warmog's Armor"
+            ],
+            "Fiora": [],
+            "Alistar": [],
+            "Samira": [
+                "Ox Force Emblem",
+                "Giant Slayer",
+                "Runaan's Hurricane"
+            ],
+            "Viego": [
+                "Jeweled Gauntlet",
+                "Hand of Justice",
+                "Ionic Spark"
+            ],
+            "Aphelios": [
+                "Guinsoo's Rageblade",
+                "Giant Slayer",
+                "Hand of Justice"
+            ],
+            "Leona": []
+        }
+    },
+    {
+        "carry": [
+            "Yasuo",
+            "Vayne",
+            "Zed"
         ],
-        "items": [
-            {
-                "Samira": [
-                    "Last Whisper",
-                    "Runaan's Hurricane",
-                    "Hextech Gunblade"
-                ]
-            },
-            {
-                "Sett": [
-                    "Gargoyle Stoneplate",
-                    "Redemption",
-                    "Bramble Vest"
-                ]
-            },
-            {
-                "Aphelios": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Hand of Justice"
-                ]
-            },
-            {
-                "Fiddlesticks": [
-                    "Archangel's Staff",
-                    "Morellonomicon"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Fiora": [],
+            "Yasuo": [
+                "Titan\u2019s Resolve",
+                "Hand of Justice",
+                "Jeweled Gauntlet"
+            ],
+            "LeBlanc": [],
+            "Nilah": [
+                "Locket of the Iron Solari",
+                "Locket of the Iron Solari"
+            ],
+            "Vayne": [
+                "Giant Slayer",
+                "Last Whisper",
+                "Infinity Edge"
+            ],
+            "Sejuani": [
+                "Morellonomicon"
+            ],
+            "Zed": [
+                "Edge of Night",
+                "Giant Slayer",
+                "Runaan's Hurricane"
+            ]
+        }
+    },
+    {
+        "carry": [
+            "Zed",
+            "Mordekaiser"
+        ],
+        "units": {
+            "Renekton": [],
+            "Yasuo": [
+                "Thief's Gloves"
+            ],
+            "Senna": [],
+            "Zoe": [],
+            "Sejuani": [
+                "Redemption",
+                "Sunfire Cape",
+                "Gargoyle Stoneplate"
+            ],
+            "Zed": [
+                "Edge of Night",
+                "Bloodthirster",
+                "Ionic Spark"
+            ],
+            "Fiddlesticks": [],
+            "Mordekaiser": [
+                "Jeweled Gauntlet",
+                "Hand of Justice",
+                "Titan\u2019s Resolve"
+            ]
+        }
+    },
+    {
+        "carry": [
+            "Jax",
+            "Soraka"
+        ],
+        "units": {
+            "Blitzcrank": [],
+            "Renekton": [],
+            "Lee Sin": [],
+            "Vi": [],
+            "Jax": [
+                "Rapid Firecannon",
+                "Jeweled Gauntlet",
+                "Quicksilver"
+            ],
+            "Riven": [],
+            "Sejuani": [
+                "Warmog's Armor",
+                "Sunfire Cape",
+                "Redemption"
+            ],
+            "Soraka": [
+                "Blue Buff",
+                "Jeweled Gauntlet",
+                "Brawler Emblem"
+            ]
+        }
     },
     {
         "carry": [
             "Vayne",
             "MissFortune"
         ],
-        "units": [
-            "Vi",
-            "Alistar",
-            "Riven",
-            "Vayne",
-            "Ekko",
-            "MissFortune",
-            "Fiddlesticks",
-            "Leona",
-            "Urgot"
-        ],
-        "items": [
-            {
-                "Riven": [
-                    "Sunfire Cape",
-                    "Warmog's Armor",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Vayne": [
-                    "Guinsoo's Rageblade",
-                    "Last Whisper",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "MissFortune": [
-                    "Spear of Shojin",
-                    "Jeweled Gauntlet",
-                    "Giant Slayer"
-                ]
-            }
-        ]
+        "units": {
+            "Vi": [],
+            "Alistar": [],
+            "Riven": [
+                "Sunfire Cape",
+                "Warmog's Armor",
+                "Ionic Spark"
+            ],
+            "Vayne": [
+                "Guinsoo's Rageblade",
+                "Last Whisper",
+                "Infinity Edge"
+            ],
+            "Ekko": [],
+            "MissFortune": [
+                "Spear of Shojin",
+                "Jeweled Gauntlet",
+                "Giant Slayer"
+            ],
+            "Fiddlesticks": [],
+            "Leona": [],
+            "Urgot": []
+        }
     },
     {
         "carry": [
-            "Yasuo",
-            "Vayne",
-            "Zed"
+            "Yuumi"
         ],
-        "units": [
-            "Gangplank",
-            "Fiora",
-            "Yasuo",
-            "LeBlanc",
-            "Nilah",
-            "Vayne",
-            "Sejuani",
-            "Zed"
-        ],
-        "items": [
-            {
-                "Yasuo": [
-                    "Titan\u2019s Resolve",
-                    "Hand of Justice",
-                    "Jeweled Gauntlet"
-                ]
-            },
-            {
-                "Nilah": [
-                    "Locket of the Iron Solari",
-                    "Locket of the Iron Solari"
-                ]
-            },
-            {
-                "Vayne": [
-                    "Giant Slayer",
-                    "Last Whisper",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "Sejuani": [
-                    "Morellonomicon"
-                ]
-            },
-            {
-                "Zed": [
-                    "Edge of Night",
-                    "Giant Slayer",
-                    "Runaan's Hurricane"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Lee Sin": [],
+            "Malphite": [],
+            "Rell": [
+                "Gargoyle Stoneplate",
+                "Bramble Vest",
+                "Warmog's Armor"
+            ],
+            "Yuumi": [
+                "Blue Buff",
+                "Jeweled Gauntlet",
+                "Giant Slayer"
+            ],
+            "Nilah": [
+                "Ionic Spark",
+                "Sunfire Cape",
+                "Redemption"
+            ],
+            "Riven": []
+        }
     },
     {
         "carry": [
-            "Kai'Sa",
-            "Vayne"
+            "Draven"
         ],
-        "units": [
-            "Ashe",
-            "Ezreal",
-            "Cho'Gath",
-            "Kai'Sa",
-            "Nilah",
-            "Rammus",
-            "Vayne",
-            "Ekko"
-        ],
-        "items": [
-            {
-                "Cho'Gath": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Kai'Sa": [
-                    "Guinsoo's Rageblade",
-                    "Statikk Shiv",
-                    "Hextech Gunblade"
-                ]
-            },
-            {
-                "Nilah": [
-                    "Redemption",
-                    "Warmog's Armor",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Rammus": [
-                    "Bramble Vest",
-                    "Sunfire Cape",
-                    "Gargoyle Stoneplate"
-                ]
-            },
-            {
-                "Vayne": [
-                    "Giant Slayer",
-                    "Infinity Edge",
-                    "Last Whisper"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Velkoz",
-            "Aurelion Sol"
-        ],
-        "units": [
-            "Cho'Gath",
-            "Rammus",
-            "Velkoz",
-            "Aurelion Sol",
-            "BelVeth",
-            "Zac",
-            "Fiddlesticks",
-            "Urgot"
-        ],
-        "items": [
-            {
-                "Cho'Gath": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Rammus": [
-                    "Gargoyle Stoneplate",
-                    "Warmog's Armor",
-                    "Sunfire Cape"
-                ]
-            },
-            {
-                "Velkoz": [
-                    "Statikk Shiv",
-                    "Archangel's Staff",
-                    "Jeweled Gauntlet"
-                ]
-            },
-            {
-                "Aurelion Sol": [
-                    "Spear of Shojin",
-                    "Archangel's Staff",
-                    "Jeweled Gauntlet"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Kai'Sa",
-            "Vayne"
-        ],
-        "units": [
-            "Jinx",
-            "Vi",
-            "Alistar",
-            "Kai'Sa",
-            "Nilah",
-            "Riven",
-            "Vayne",
-            "Ekko"
-        ],
-        "items": [
-            {
-                "Kai'Sa": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Jeweled Gauntlet"
-                ]
-            },
-            {
-                "Nilah": [
-                    "Sunfire Cape",
-                    "Warmog's Armor",
-                    "Bramble Vest"
-                ]
-            },
-            {
-                "Vayne": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "Ekko": [
-                    "Thief's Gloves"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Wukong": [],
+            "Draven": [
+                "Infinity Edge",
+                "Bloodthirster",
+                "Titan\u2019s Resolve"
+            ],
+            "Lee Sin": [
+                "Sunfire Cape",
+                "Redemption",
+                "Warmog's Armor"
+            ],
+            "Malphite": [
+                "Gargoyle Stoneplate",
+                "Warmog's Armor",
+                "Bramble Vest"
+            ],
+            "Yuumi": [],
+            "Jax": []
+        }
     },
     {
         "carry": [
             "Draven",
             "Zoe"
         ],
-        "units": [
-            "Blitzcrank",
-            "Wukong",
-            "Draven",
-            "Jax",
-            "LeBlanc",
-            "Zoe",
-            "Ekko",
-            "Fiddlesticks"
-        ],
-        "items": [
-            {
-                "Draven": [
-                    "Infinity Edge",
-                    "Last Whisper",
-                    "Bloodthirster"
-                ]
-            },
-            {
-                "Zoe": [
-                    "Blue Buff",
-                    "Morellonomicon"
-                ]
-            },
-            {
-                "Ekko": [
-                    "Redemption",
-                    "Warmog's Armor",
-                    "Bramble Vest"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Samira",
-            "Aphelios",
-            "Fiddlesticks"
-        ],
-        "units": [
-            "Vi",
-            "Alistar",
-            "Ekko",
-            "Samira",
-            "Sejuani",
-            "Aphelios",
-            "Fiddlesticks",
-            "Leona",
-            "Nunu"
-        ],
-        "items": [
-            {
-                "Samira": [
-                    "Last Whisper",
-                    "Giant Slayer",
-                    "Runaan's Hurricane"
-                ]
-            },
-            {
-                "Sejuani": [
-                    "Redemption",
-                    "Bramble Vest",
-                    "Dragon's Claw"
-                ]
-            },
-            {
-                "Aphelios": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Hand of Justice"
-                ]
-            },
-            {
-                "Fiddlesticks": [
-                    "Morellonomicon",
-                    "Ionic Spark"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Aphelios",
-            "Fiddlesticks"
-        ],
-        "units": [
-            "Galio",
-            "Sivir",
-            "Alistar",
-            "Ekko",
-            "Aphelios",
-            "Fiddlesticks",
-            "Janna",
-            "Leona",
-            "Urgot"
-        ],
-        "items": [
-            {
-                "Ekko": [
-                    "Redemption",
-                    "Bramble Vest",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Aphelios": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Hand of Justice"
-                ]
-            },
-            {
-                "Fiddlesticks": [
-                    "Ionic Spark",
-                    "Archangel's Staff",
-                    "Morellonomicon"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Jax",
-            "Soraka"
-        ],
-        "units": [
-            "Blitzcrank",
-            "Renekton",
-            "Lee Sin",
-            "Vi",
-            "Jax",
-            "Riven",
-            "Sejuani",
-            "Soraka"
-        ],
-        "items": [
-            {
-                "Jax": [
-                    "Rapid Firecannon",
-                    "Jeweled Gauntlet",
-                    "Quicksilver"
-                ]
-            },
-            {
-                "Sejuani": [
-                    "Warmog's Armor",
-                    "Sunfire Cape",
-                    "Redemption"
-                ]
-            },
-            {
-                "Soraka": [
-                    "Blue Buff",
-                    "Archangel's Staff",
-                    "Brawler Emblem"
-                ]
-            }
-        ]
+        "units": {
+            "Blitzcrank": [],
+            "Wukong": [],
+            "Draven": [
+                "Infinity Edge",
+                "Last Whisper",
+                "Bloodthirster"
+            ],
+            "Jax": [],
+            "LeBlanc": [],
+            "Zoe": [
+                "Blue Buff",
+                "Morellonomicon"
+            ],
+            "Ekko": [
+                "Redemption",
+                "Warmog's Armor",
+                "Bramble Vest"
+            ],
+            "Fiddlesticks": []
+        }
     },
     {
         "carry": [
             "Jax"
         ],
-        "units": [
-            "Vi",
-            "Alistar",
-            "Jax",
-            "Riven",
-            "Ekko",
-            "Sejuani",
-            "Sett",
-            "Leona"
-        ],
-        "items": [
-            {
-                "Jax": [
-                    "Rapid Firecannon",
-                    "Jeweled Gauntlet",
-                    "Quicksilver"
-                ]
-            },
-            {
-                "Riven": [
-                    "Sunfire Cape",
-                    "Redemption",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Sejuani": [
-                    "Bramble Vest",
-                    "Warmog's Armor",
-                    "Gargoyle Stoneplate"
-                ]
-            }
-        ]
+        "units": {
+            "Vi": [],
+            "Alistar": [],
+            "Jax": [
+                "Rapid Firecannon",
+                "Jeweled Gauntlet",
+                "Quicksilver"
+            ],
+            "Riven": [
+                "Sunfire Cape",
+                "Redemption",
+                "Ionic Spark"
+            ],
+            "Ekko": [],
+            "Sejuani": [
+                "Bramble Vest",
+                "Warmog's Armor",
+                "Gargoyle Stoneplate"
+            ],
+            "Sett": [],
+            "Leona": []
+        }
     },
     {
         "carry": [
             "MissFortune",
             "Samira"
         ],
-        "units": [
-            "Wukong",
-            "Draven",
-            "Alistar",
-            "Ekko",
-            "MissFortune",
-            "Samira",
-            "Sett",
-            "Mordekaiser"
-        ],
-        "items": [
-            {
-                "MissFortune": [
-                    "Spear of Shojin",
-                    "Jeweled Gauntlet",
-                    "Giant Slayer"
-                ]
-            },
-            {
-                "Samira": [
-                    "Giant Slayer",
-                    "Runaan's Hurricane",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "Sett": [
-                    "Gargoyle Stoneplate",
-                    "Redemption",
-                    "Bramble Vest"
-                ]
-            },
-            {
-                "Mordekaiser": [
-                    "Thief's Gloves"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Ezreal",
-            "Kai'Sa"
-        ],
-        "units": [
-            "Ashe",
-            "Wukong",
-            "Draven",
-            "Ezreal",
-            "Jax",
-            "Kai'Sa",
-            "Vayne",
-            "Sett"
-        ],
-        "items": [
-            {
-                "Wukong": [
-                    "Titan\u2019s Resolve",
-                    "Redemption",
-                    "Dragon's Claw"
-                ]
-            },
-            {
-                "Ezreal": [
-                    "Blue Buff",
-                    "Rabadon's Deathcap",
-                    "Giant Slayer"
-                ]
-            },
-            {
-                "Kai'Sa": [
-                    "Statikk Shiv",
-                    "Guinsoo's Rageblade",
-                    "Giant Slayer"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Talon",
-            "Viego"
-        ],
-        "units": [
-            "Sylas",
-            "Talon",
-            "Camille",
-            "Alistar",
-            "Viego",
-            "Aphelios",
-            "Fiddlesticks",
-            "Leona"
-        ],
-        "items": [
-            {
-                "Talon": [
-                    "Bloodthirster",
-                    "Jeweled Gauntlet",
-                    "Guardbreaker"
-                ]
-            },
-            {
-                "Viego": [
-                    "Bloodthirster",
-                    "Jeweled Gauntlet",
-                    "Guardbreaker"
-                ]
-            },
-            {
-                "Fiddlesticks": [
-                    "Renegade Emblem"
-                ]
-            },
-            {
-                "Leona": [
-                    "Sunfire Cape",
-                    "Redemption",
-                    "Ionic Spark"
-                ]
-            }
-        ]
+        "units": {
+            "Wukong": [],
+            "Draven": [],
+            "Alistar": [],
+            "Ekko": [],
+            "MissFortune": [
+                "Spear of Shojin",
+                "Jeweled Gauntlet",
+                "Giant Slayer"
+            ],
+            "Samira": [
+                "Giant Slayer",
+                "Runaan's Hurricane",
+                "Hextech Gunblade"
+            ],
+            "Sett": [
+                "Gargoyle Stoneplate",
+                "Redemption",
+                "Bramble Vest"
+            ],
+            "Mordekaiser": [
+                "Thief's Gloves"
+            ]
+        }
     },
     {
         "carry": [
@@ -786,520 +610,235 @@
             "Zed",
             "Aphelios"
         ],
-        "units": [
-            "Gangplank",
-            "Kayle",
-            "Fiora",
-            "Yasuo",
-            "Nilah",
-            "Vayne",
-            "Sejuani",
-            "Zed",
-            "Aphelios"
-        ],
-        "items": [
-            {
-                "Nilah": [
-                    "Locket of the Iron Solari",
-                    "Locket of the Iron Solari",
-                    "Sunfire Cape"
-                ]
-            },
-            {
-                "Vayne": [
-                    "Infinity Edge",
-                    "Last Whisper",
-                    "Guinsoo's Rageblade"
-                ]
-            },
-            {
-                "Zed": [
-                    "Runaan's Hurricane",
-                    "Edge of Night",
-                    "Giant Slayer"
-                ]
-            },
-            {
-                "Aphelios": [
-                    "Duelist Emblem",
-                    "Giant Slayer",
-                    "Infinity Edge"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Kayle": [],
+            "Fiora": [],
+            "Yasuo": [],
+            "Nilah": [
+                "Locket of the Iron Solari",
+                "Locket of the Iron Solari",
+                "Sunfire Cape"
+            ],
+            "Vayne": [
+                "Infinity Edge",
+                "Last Whisper",
+                "Guinsoo's Rageblade"
+            ],
+            "Sejuani": [],
+            "Zed": [
+                "Runaan's Hurricane",
+                "Edge of Night",
+                "Giant Slayer"
+            ],
+            "Aphelios": [
+                "Duelist Emblem",
+                "Giant Slayer",
+                "Infinity Edge"
+            ]
+        }
     },
     {
         "carry": [
-            "Samira",
-            "Viego",
-            "Aphelios"
+            "Taliyah"
         ],
-        "units": [
-            "Talon",
-            "Annie",
-            "Fiora",
-            "Alistar",
-            "Samira",
-            "Viego",
-            "Aphelios",
-            "Leona"
-        ],
-        "items": [
-            {
-                "Annie": [
-                    "Sunfire Cape",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Samira": [
-                    "Ox Force Emblem",
-                    "Giant Slayer",
-                    "Runaan's Hurricane"
-                ]
-            },
-            {
-                "Viego": [
-                    "Jeweled Gauntlet",
-                    "Hand of Justice",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Aphelios": [
-                    "Guinsoo's Rageblade",
-                    "Giant Slayer",
-                    "Hand of Justice"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Camille",
-            "Viego"
-        ],
-        "units": [
-            "Blitzcrank",
-            "Talon",
-            "Camille",
-            "Vi",
-            "Alistar",
-            "LeBlanc",
-            "Zoe",
-            "Ekko",
-            "Viego"
-        ],
-        "items": [
-            {
-                "Talon": [
-                    "A.D.M.I.N. Crest"
-                ]
-            },
-            {
-                "Camille": [
-                    "Bloodthirster",
-                    "Titan\u2019s Resolve",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "Vi": [
-                    "Sunfire Cape",
-                    "Redemption",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Viego": [
-                    "Bloodthirster",
-                    "Titan\u2019s Resolve",
-                    "Jeweled Gauntlet"
-                ]
-            }
-        ]
+        "units": {
+            "Lux": [],
+            "Annie": [
+                "Gargoyle Stoneplate",
+                "Sunfire Cape",
+                "Warmog's Armor"
+            ],
+            "Yuumi": [],
+            "Alistar": [],
+            "Ekko": [
+                "Ionic Spark",
+                "Warmog's Armor",
+                "Gargoyle Stoneplate"
+            ],
+            "Taliyah": [
+                "Giant Slayer",
+                "Archangel's Staff",
+                "Jeweled Gauntlet"
+            ],
+            "Janna": [],
+            "Syndra": [
+                "Spear of Shojin"
+            ]
+        }
     },
     {
         "carry": [
             "LeBlanc",
             "Zoe"
         ],
-        "units": [
-            "Annie",
-            "Alistar",
-            "LeBlanc",
-            "Sona",
-            "Zoe",
-            "Ekko",
-            "Soraka",
-            "Janna"
-        ],
-        "items": [
-            {
-                "Annie": [
-                    "Gargoyle Stoneplate",
-                    "Warmog's Armor",
-                    "Sunfire Cape"
-                ]
-            },
-            {
-                "LeBlanc": [
-                    "Spear of Shojin",
-                    "Jeweled Gauntlet",
-                    "Giant Slayer"
-                ]
-            },
-            {
-                "Zoe": [
-                    "Blue Buff",
-                    "Giant Slayer",
-                    "Morellonomicon"
-                ]
-            },
-            {
-                "Ekko": [
-                    "Thief's Gloves"
-                ]
-            }
-        ]
+        "units": {
+            "Annie": [
+                "Gargoyle Stoneplate",
+                "Warmog's Armor",
+                "Sunfire Cape"
+            ],
+            "Alistar": [],
+            "LeBlanc": [
+                "Spear of Shojin",
+                "Jeweled Gauntlet",
+                "Giant Slayer"
+            ],
+            "Sona": [],
+            "Zoe": [
+                "Blue Buff",
+                "Giant Slayer",
+                "Morellonomicon"
+            ],
+            "Ekko": [
+                "Thief's Gloves"
+            ],
+            "Soraka": [],
+            "Janna": []
+        }
     },
     {
         "carry": [
             "Ezreal",
-            "Sona"
+            "Kai'Sa"
         ],
-        "units": [
-            "Gangplank",
-            "Annie",
-            "Ezreal",
-            "Lee Sin",
-            "Malphite",
-            "Vi",
-            "Alistar",
-            "Sona"
-        ],
-        "items": [
-            {
-                "Ezreal": [
-                    "Giant Slayer",
-                    "Jeweled Gauntlet",
-                    "Blue Buff"
-                ]
-            },
-            {
-                "Lee Sin": [
-                    "Ionic Spark",
-                    "Sunfire Cape",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Vi": [
-                    "Bramble Vest",
-                    "Warmog's Armor",
-                    "Redemption"
-                ]
-            },
-            {
-                "Sona": [
-                    "Giant Slayer",
-                    "Blue Buff",
-                    "Rabadon's Deathcap"
-                ]
-            }
-        ]
+        "units": {
+            "Ashe": [],
+            "Wukong": [
+                "Titan\u2019s Resolve",
+                "Redemption",
+                "Bramble Vest"
+            ],
+            "Draven": [],
+            "Ezreal": [
+                "Blue Buff",
+                "Rabadon's Deathcap",
+                "Giant Slayer"
+            ],
+            "Jax": [],
+            "Kai'Sa": [
+                "Statikk Shiv",
+                "Guinsoo's Rageblade",
+                "Hextech Gunblade"
+            ],
+            "Vayne": [],
+            "Sett": []
+        }
     },
     {
         "carry": [
             "Yuumi"
         ],
-        "units": [
-            "Galio",
-            "Gangplank",
-            "Nasus",
-            "Lee Sin",
-            "Malphite",
-            "Yuumi",
-            "Alistar",
-            "Nunu"
+        "units": {
+            "Galio": [],
+            "Gangplank": [
+                "Thief's Gloves"
+            ],
+            "Nasus": [],
+            "Lee Sin": [
+                "Redemption",
+                "Sunfire Cape",
+                "Ionic Spark"
+            ],
+            "Malphite": [
+                "Warmog's Armor",
+                "Bramble Vest",
+                "Dragon's Claw"
+            ],
+            "Yuumi": [
+                "Blue Buff",
+                "Giant Slayer",
+                "Jeweled Gauntlet"
+            ],
+            "Alistar": [],
+            "Nunu": []
+        }
+    },
+    {
+        "carry": [
+            "Ezreal",
+            "Sona"
         ],
-        "items": [
-            {
-                "Gangplank": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Lee Sin": [
-                    "Redemption",
-                    "Sunfire Cape",
-                    "Ionic Spark"
-                ]
-            },
-            {
-                "Malphite": [
-                    "Warmog's Armor",
-                    "Bramble Vest",
-                    "Dragon's Claw"
-                ]
-            },
-            {
-                "Yuumi": [
-                    "Blue Buff",
-                    "Giant Slayer",
-                    "Jeweled Gauntlet"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Annie": [],
+            "Ezreal": [
+                "Giant Slayer",
+                "Jeweled Gauntlet",
+                "Blue Buff"
+            ],
+            "Lee Sin": [
+                "Ionic Spark",
+                "Sunfire Cape",
+                "Warmog's Armor"
+            ],
+            "Malphite": [],
+            "Vi": [
+                "Bramble Vest",
+                "Warmog's Armor",
+                "Redemption"
+            ],
+            "Alistar": [],
+            "Sona": [
+                "Giant Slayer",
+                "Blue Buff",
+                "Rabadon's Deathcap"
+            ]
+        }
     },
     {
         "carry": [
             "Ezreal"
         ],
-        "units": [
-            "Gangplank",
-            "Ezreal",
-            "Lee Sin",
-            "Malphite",
-            "Vi",
-            "Alistar",
-            "Kai'Sa",
-            "Vayne"
-        ],
-        "items": [
-            {
-                "Ezreal": [
-                    "Blue Buff",
-                    "Jeweled Gauntlet",
-                    "Giant Slayer"
-                ]
-            },
-            {
-                "Lee Sin": [
-                    "Sunfire Cape",
-                    "Ionic Spark",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Vi": [
-                    "Bramble Vest",
-                    "Warmog's Armor",
-                    "Redemption"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Ashe"
-        ],
-        "units": [
-            "Ashe",
-            "Gangplank",
-            "Renekton",
-            "Lee Sin",
-            "Malphite",
-            "Yasuo",
-            "Vayne",
-            "Zed"
-        ],
-        "items": [
-            {
-                "Ashe": [
-                    "Guinsoo's Rageblade",
-                    "Deathblade",
-                    "Last Whisper"
-                ]
-            },
-            {
-                "Renekton": [
-                    "Warmog's Armor",
-                    "Bramble Vest",
-                    "Dragon's Claw"
-                ]
-            },
-            {
-                "Malphite": [
-                    "Gargoyle Stoneplate",
-                    "Sunfire Cape",
-                    "Redemption"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Kayle",
-            "Yasuo"
-        ],
-        "units": [
-            "Gangplank",
-            "Kayle",
-            "Fiora",
-            "Lee Sin",
-            "Malphite",
-            "Yasuo",
-            "Vayne",
-            "Zed"
-        ],
-        "items": [
-            {
-                "Gangplank": [
-                    "Thief's Gloves"
-                ]
-            },
-            {
-                "Kayle": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Infinity Edge"
-                ]
-            },
-            {
-                "Lee Sin": [
-                    "Sunfire Cape",
-                    "Redemption",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Yasuo": [
-                    "Titan\u2019s Resolve",
-                    "Hand of Justice",
-                    "Jeweled Gauntlet"
-                ]
-            }
-        ]
+        "units": {
+            "Gangplank": [],
+            "Ezreal": [
+                "Blue Buff",
+                "Jeweled Gauntlet",
+                "Giant Slayer"
+            ],
+            "Lee Sin": [
+                "Sunfire Cape",
+                "Ionic Spark",
+                "Warmog's Armor"
+            ],
+            "Malphite": [],
+            "Vi": [
+                "Bramble Vest",
+                "Warmog's Armor",
+                "Redemption"
+            ],
+            "Alistar": [],
+            "Kai'Sa": [],
+            "Vayne": []
+        }
     },
     {
         "carry": [
             "Taliyah"
         ],
-        "units": [
-            "Lux",
-            "Annie",
-            "Yuumi",
-            "Alistar",
-            "Ekko",
-            "Taliyah",
-            "Janna",
-            "Syndra"
-        ],
-        "items": [
-            {
-                "Annie": [
-                    "Gargoyle Stoneplate",
-                    "Sunfire Cape",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "Ekko": [
-                    "Ionic Spark",
-                    "Warmog's Armor",
-                    "Gargoyle Stoneplate"
-                ]
-            },
-            {
-                "Taliyah": [
-                    "Giant Slayer",
-                    "Archangel's Staff",
-                    "Jeweled Gauntlet"
-                ]
-            },
-            {
-                "Syndra": [
-                    "Spear of Shojin"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Taliyah"
-        ],
-        "units": [
-            "Lux",
-            "Annie",
-            "Alistar",
-            "LeBlanc",
-            "Sona",
-            "Taliyah",
-            "Janna",
-            "Leona",
-            "Syndra"
-        ],
-        "items": [
-            {
-                "Annie": [
-                    "Gargoyle Stoneplate",
-                    "Warmog's Armor",
-                    "Bramble Vest"
-                ]
-            },
-            {
-                "Taliyah": [
-                    "Archangel's Staff",
-                    "Jeweled Gauntlet",
-                    "Spear of Shojin"
-                ]
-            },
-            {
-                "Leona": [
-                    "Warmog's Armor",
-                    "Dragon's Claw",
-                    "Bramble Vest"
-                ]
-            }
-        ]
-    },
-    {
-        "carry": [
-            "Kai'Sa",
-            "MissFortune",
-            "Taliyah"
-        ],
-        "units": [
-            "Lux",
-            "Rell",
-            "Yuumi",
-            "Kai'Sa",
-            "Nilah",
-            "Ekko",
-            "MissFortune",
-            "Taliyah",
-            "Syndra"
-        ],
-        "items": [
-            {
-                "Kai'Sa": [
-                    "Giant Slayer",
-                    "Guinsoo's Rageblade",
-                    "Statikk Shiv"
-                ]
-            },
-            {
-                "Nilah": [
-                    "Gargoyle Stoneplate",
-                    "Sunfire Cape",
-                    "Warmog's Armor"
-                ]
-            },
-            {
-                "MissFortune": [
-                    "Star Guardian Emblem",
-                    "Jeweled Gauntlet",
-                    "Spear of Shojin"
-                ]
-            },
-            {
-                "Taliyah": [
-                    "Giant Slayer",
-                    "Archangel's Staff",
-                    "Jeweled Gauntlet"
-                ]
-            }
-        ]
+        "units": {
+            "Lux": [],
+            "Annie": [
+                "Gargoyle Stoneplate",
+                "Warmog's Armor",
+                "Bramble Vest"
+            ],
+            "Alistar": [],
+            "LeBlanc": [],
+            "Sona": [],
+            "Taliyah": [
+                "Archangel's Staff",
+                "Jeweled Gauntlet",
+                "Spear of Shojin"
+            ],
+            "Janna": [],
+            "Leona": [
+                "Warmog's Armor",
+                "Dragon's Claw",
+                "Bramble Vest"
+            ],
+            "Syndra": []
+        }
     }
 ]

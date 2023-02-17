@@ -3,11 +3,7 @@ import Unit from "./unit";
 
 class Teamcomp extends Component {
   state = {
-    units: [
-      // { id: 1 , champName : 'Wukong' },
-  
-  
-    ],
+    units: this.props.composition
   };
 
   teamCompStyle ={
@@ -17,10 +13,10 @@ class Teamcomp extends Component {
   }
 
   addUnitsToState() {
-    for (let i = 0; i < this.props.value2.length; i++ ){
+    for (let i = 0; i < this.props.composition.length; i++ ){
       var unitDic = {};
       unitDic['id'] = i;
-      unitDic['champName'] = this.props.value2[i];
+      unitDic['champName'] = this.props.composition[i];
       this.state.units.push(unitDic);
     }
 
@@ -30,9 +26,16 @@ class Teamcomp extends Component {
   render() {
     return (
       <div>
-        {this.addUnitsToState()}
+        {/* {this.addUnitsToState()} */}
         
-        {this.state.units.map((unit) => (<Unit key={unit.id} value = {unit.champName} />))}
+        {/* {console.log(Object.keys(this.state.units))} */}
+        {/* {console.log(this.state.units)} */}
+        {/* {this.state.units.map((unit) => (<Unit key={"header"+ unit}  value = {unit} />))} */}
+        {/* {Object.entries(this.state.units).map((unit, items) => ( */}
+        {Object.keys(this.state.units).map((unit) => (
+          // <h1>{this.state.units[unit]}</h1>
+          <Unit key={"header"+ unit} unitName = {unit} items = {this.state.units[unit]}/>
+        ))}
 
         <div class = "clearfix"></div>
 

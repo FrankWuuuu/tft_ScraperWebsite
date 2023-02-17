@@ -99,14 +99,12 @@ def tftactics ():
                     carry.append(champName)
 
                 
-                thisUnit = {champName: arrItems}
-                
-                arrItemsForComp.append(thisUnit)
+                arrUnits[champName] = arrItems
                     
                 
             except:
-                pass
-            arrUnits.append(champName) 
+                arrUnits[champName] = []
+            
     
     tierlist = driver.find_elements(By.CLASS_NAME, "tier-group" )
     
@@ -118,28 +116,28 @@ def tftactics ():
         for team in teamComps:                                                      #teamcomp
             arrTeamComp = {}
             carry = []
-            threeStar = []                                              
-            arrUnits = []     
-            arrItemsForComp = []                                         
+            threeStar = []
+            arrUnits = {}
+            # arrItemsForComp = []
             # print()
             # print()
             # print("     ", end = '')
             oneCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c1") 
             twoCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c2") 
             threeCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c3") 
-            # sixCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c6") 
+            sixCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c6") 
             fourCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c4") 
-            # sevenCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c7") 
+            sevenCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c7") 
             fiveCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c5") 
-            # eightCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c8")  
+            eightCostUnits = team.find_elements(By.CLASS_NAME, "characters-item.c8")  
             cycleUnits(oneCostUnits)
             cycleUnits(twoCostUnits)
             cycleUnits(threeCostUnits)
-            # cycleUnits(sixCostUnits)
+            cycleUnits(sixCostUnits)
             cycleUnits(fourCostUnits)
-            # cycleUnits(sevenCostUnits)
+            cycleUnits(sevenCostUnits)
             cycleUnits(fiveCostUnits)
-            # cycleUnits(eightCostUnits)
+            cycleUnits(eightCostUnits)
             # cycleUnitsPrint(oneCostUnits)
             # cycleUnitsPrint(twoCostUnits)
             # cycleUnitsPrint(threeCostUnits)
@@ -154,8 +152,8 @@ def tftactics ():
 
             arrTeamComp['carry']= carry
             arrTeamComp['units']= arrUnits
-            arrTeamComp['threeStars']= threeStar
-            arrTeamComp['items']= arrItemsForComp
+            # arrTeamComp['threeStars']= threeStar
+            # arrTeamComp['items']= arrItemsForComp
             arrTier.append(arrTeamComp)
             # print(arrTeamComp)
         tftacticsDataBase.append(arrTier)
@@ -194,8 +192,8 @@ def lolchess ():
     for team in teamComps:
         arrTeamComp = {}
         carry = []
-        arrItemsOfComp = []                                              
-        arrUnits = []                                              
+        arrItemsOfComp = []
+        arrUnits = {}
 
         anyCostUnits = team.find_elements(By.CLASS_NAME, "tft-champion-box") 
         
@@ -216,15 +214,15 @@ def lolchess ():
                             carryItemCount = carryItemCount+ 1
                 if carryItemCount>1:
                         carry.append(champName)
-                thing = {champName:arrItems}
-                arrItemsOfComp.append(thing)
-            
-            arrUnits.append(champName)
+
+                arrUnits[champName] = arrItems
+            else:
+                arrUnits[champName] = []
 
 
         arrTeamComp['carry']= carry
         arrTeamComp['units']= arrUnits
-        arrTeamComp['items']= arrItemsOfComp
+        # arrTeamComp['items']= arrItemsOfComp
         lolChessDataBase.append(arrTeamComp)
     # print(lolChessDataBase)
     json_object = json.dumps(lolChessDataBase, indent=4)
@@ -261,12 +259,11 @@ def bunnymuffins ():
                     carry.append(champName)
                 
                 
-                thisUnit = {champName: arrItems}
-                arrItemsInComp.append(thisUnit)
+                arrUnits[champName] = arrItems
                 
                 
-           
-            arrUnits.append(champName) 
+            else:
+                arrUnits[champName] = []
             # print('cuum')
 
     
@@ -319,9 +316,8 @@ def bunnymuffins ():
         arrTier = []
         for teamcomp in tier:
             arrTeamComp = {}
-            carry = []
-            arrItemsInComp = []                                              
-            arrUnits = [] 
+            carry = []                                          
+            arrUnits = {}
             driver.get(teamcomp)
             
             
@@ -344,7 +340,6 @@ def bunnymuffins ():
 
             arrTeamComp['carry']= carry
             arrTeamComp['units']= arrUnits
-            arrTeamComp['items']= arrItemsInComp
             arrTier.append(arrTeamComp)
             
             # print(arrTeamComp)
