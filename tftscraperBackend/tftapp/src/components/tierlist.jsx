@@ -55,7 +55,6 @@ class Tierlist extends Component {
       <div class = "container my-5" >
 
         <style>{'body { background-color: #1c1c1f; }'}</style>
-        <style>{'body { background-color: #ffffff; }'}</style>
 
 
         {this.state.carryComps.map((carryComp, id) =>  (
@@ -64,6 +63,8 @@ class Tierlist extends Component {
             <div key={id}>
             <div >
                   <div >
+                        <h1 class = "text-light">Team Compositions</h1>
+                        <h4 class = "text-light"> TFT scraper of tftactics, lolchess and bunnymuffins</h4>
                         {/* {this.state.carryComp["body"].map((carryComps2) => (<Compsofcarry key={"header"+ carryComps2.carry} carry = {carryComps2.carry} teamcomps2 = {carryComps2.teamcomps} />))} */}
                         
                         {Object.entries(carryComp["body"]).map(([carryName,theTeamcomps]) => (
@@ -74,9 +75,9 @@ class Tierlist extends Component {
                         ))}
                         
 
-
+{/* 
                         <Unit unitName = {Object.keys( carryComp["body"]["Vayne"][0]["units"])[0]}
-                         items= {carryComp["body"]["Vayne"][0]["units"]["Kai'Sa"]}/>
+                         items= {carryComp["body"]["Vayne"][0]["units"]["Kai'Sa"]}/> */}
                         
                         {/* <h1>{carryComp["body"]["Vayne"][0]["units"]["Kai'Sa"][0]} </h1> */}
                         

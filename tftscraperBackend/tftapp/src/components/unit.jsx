@@ -18,7 +18,7 @@ class Unit extends Component {
     if(unitname.includes('fortune'))unitname = 'MissFortune';
     if(unitname.includes('Leesin'))unitname = 'LeeSin';
 
-    // if(unitname.includes('Nomsy'))unitname = 'Nomsy';
+    // if(unitname.includes('Nomsy'))unitname = 'Nomsy';  
     // if(unitname.includes('Swain'))unitname = 'Swain';
 
     this.state.url=  'https://rerollcdn.com/characters/Skin/8/'+ unitname + '.png';
@@ -45,9 +45,17 @@ class Unit extends Component {
 
   stylesImg2 = {
     width: 20,
-    height: "auto",
+    // height: "auto",
+    
+    
   };
 
+  imgSpan = {
+    position: "absolute",
+    display: "flex",
+    // top: 1,
+    // left: 1
+  }
 
   stylesDiv = {
     width: 60,
@@ -63,6 +71,8 @@ class Unit extends Component {
     fontSize : "13px"
     // fontFamily: "Times New Roman"
   };
+
+ 
 
   
 
@@ -83,23 +93,23 @@ class Unit extends Component {
     let itemTwo;
     let itemThree;
     if (this.state.items.length !=0){
-      itemOne = <img 
+      itemOne = <span class = "tt "  title = {this.state.items[0]}><img 
         class = ""  
         src={'https://rerollcdn.com/items/'+ tempItemsList[0] + '.png'} 
         style={this.stylesImg2} alt="" 
-      />;
+      /></span>;
       if (this.state.items.length !=1){
-        itemTwo = <img 
+        itemTwo = <span class = "tt" title = {this.state.items[1]}><img 
           class = ""  
           src={'https://rerollcdn.com/items/'+ tempItemsList[1] + '.png'} 
           style={this.stylesImg2} alt="" 
-        />;
+        /></span>;
         if (this.state.items.length !=1){
-          itemThree = <img 
+          itemThree = <span class = "tt" title = {this.state.items[2]}><img 
             class = ""  
             src={'https://rerollcdn.com/items/'+ tempItemsList[2] + '.png'} 
             style={this.stylesImg2} alt="" 
-          />;
+          /></span>;
         }
       }
     }else{
@@ -109,12 +119,13 @@ class Unit extends Component {
 
 
     return (
-      <div style = {this.stylesDiv} class = " float-child ">
+      <div style = {this.stylesDiv} class = " float-child position-relative ">
         
         <img class = ""  src={this.state.url} style={this.stylesImg} alt="" />
         
         {/* <img class = ""  src="https://rerollcdn.com/items/HandofJustice.png" style={this.stylesImg2} alt="" /> */}
         {/* <img class = ""  src={this.state.itemOneUrl} style={this.stylesImg2} alt="" /> */}
+        
         {itemOne}
         {itemTwo}
         {itemThree}
